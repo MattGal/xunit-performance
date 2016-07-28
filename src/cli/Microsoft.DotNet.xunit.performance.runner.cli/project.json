@@ -1,5 +1,5 @@
 {
-  "version": "99.99.99-dev",
+  "version": "1.0.0-alpha-build0040",
   "title": "xUnit Performance Runner for .NET Core",
   "description": "Contains the tools necessary for running xunit Performance tests on .NET Core (Windows, Linux, OSX, etc.)",
   "authors": [ "ericeil@microsoft.com", "pharring@microsoft.com" ],
@@ -17,7 +17,7 @@
     "lib/netstandard1.3/":"../../../DotNetCliVersion.txt"
   },
   "dependencies": {
-    "Microsoft.DotNet.xunit.performance.run.core": "99.99.99-dev",
+    "Microsoft.DotNet.xunit.performance.run.core": "1.0.0-alpha-build0040",
     "Microsoft.NETCore.DotNetHostPolicy":"1.0.1-rc2-002357-00",
     "NETStandard.Library": "1.5.0-rc2-23931",
     "Microsoft.xunit.extensibility.execution.netcore": "1.0.0-prerelease-00508-01",

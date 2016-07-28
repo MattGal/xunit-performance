@@ -4,7 +4,7 @@
     "uwp.10.0.app": {}
   },
   "dependencies": {
-    "xunit.extensibility.core": "2.1.0",
+    "xunit.extensibility.core": "2.*",
     "Microsoft.NETCore": "5.0.0",
     "Microsoft.NETCore.Portable.Compatibility": "1.0.0"
   },

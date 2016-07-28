@@ -1,5 +1,5 @@
 {
-  "version": "99.99.99-dev",
+  "version": "1.0.0-alpha-build0040",
   "title": "xUnit Performance analysis tool for dotnet cli",
   "description": "Contains the tools necessary for running xunit Performance tests on .NET Core (Windows, Linux, OSX, etc.)",
   "authors": [ "brianrob@microsoft.com" ],

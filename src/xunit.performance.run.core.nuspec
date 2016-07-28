@@ -15,6 +15,7 @@ Contains the core portable functionality used by xunit.performance.run.
     <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
+        <!--
       <group targetFramework="dotnet">
         <dependency id="System.Threading" version="4.0.10" />
         <dependency id="System.Collections" version="4.0.10" />
@@ -28,8 +29,8 @@ Contains the core portable functionality used by xunit.performance.run.
         <dependency id="System.Runtime" version="4.0.20" />
         <dependency id="System.Runtime.Extensions" version="4.0.10" />
         <dependency id="System.Xml.XDocument" version="4.0.10" />
-        <dependency id="xunit.abstractions" version="2.0.0" />
-        <dependency id="xunit.runner.utility" version="2.1.0" />
+        <dependency id="xunit.abstractions" version="2.2.0" />
+        <dependency id="xunit.runner.utility" version="2.2.0" />
       </group>
       <group targetFramework="netstandard1.3">
         <dependency id="System.Threading" version="4.0.10" />
@@ -44,8 +45,9 @@ Contains the core portable functionality used by xunit.performance.run.
         <dependency id="System.Runtime" version="4.0.20" />
         <dependency id="System.Runtime.Extensions" version="4.0.10" />
         <dependency id="System.Xml.XDocument" version="4.0.10" />
-        <dependency id="Microsoft.DotNet.BuildTools.TestSuite" version="1.0.0-prerelease-00508-01" />
+        <dependency id="Microsoft.DotNet.BuildTools.TestSuite" version="1.0.0-prerelease-00520-02" />
       </group>
+      -->
     </dependencies>
   </metadata>
   <files>

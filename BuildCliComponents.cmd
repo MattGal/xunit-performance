@@ -42,12 +42,12 @@ if NOT exist "%DotNet%" (
 :build
 echo Building CLI-based components
 pushd %~dp0src\cli\Microsoft.DotNet.xunit.performance.runner.cli
-call %DotNet% restore
+call %DotNet% restore --packages ..\..\..\packages\
 call %DotNet% build -c %BuildConfiguration%
 call %DotNet% pack -c %BuildConfiguration% -o %OutputDirectory%
 popd
 pushd %~dp0src\cli\Microsoft.DotNet.xunit.performance.analysis.cli
-call %DotNet% restore
+call %DotNet% restore --packages ..\..\..\packages\
 call %DotNet% build -c %BuildConfiguration%
 call %DotNet% pack -c %BuildConfiguration% -o %OutputDirectory%
 popd

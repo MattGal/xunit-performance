@@ -56,12 +56,12 @@ fi
 
 echo Building CLI-based components
 pushd ${currentDir}/src/cli/Microsoft.DotNet.xunit.performance.runner.cli > /dev/null
-$dotnetCmd restore
+$dotnetCmd restore --packages ../../../packages/
 $dotnetCmd build -c $buildConfiguration
 $dotnetCmd pack -c $buildConfiguration -o $outputDirectory
 popd > /dev/null
 pushd ${currentDir}/src/cli/Microsoft.DotNet.xunit.performance.analysis.cli > /dev/null
-$dotnetCmd restore
+$dotnetCmd restore --packages ../../../packages/
 $dotnetCmd build -c $buildConfiguration
 $dotnetCmd pack -c $buildConfiguration -o $outputDirectory
 popd > /dev/null
