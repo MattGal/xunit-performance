@@ -4,11 +4,10 @@
     "uwp.10.0.app": {}
   },
   "dependencies": {
-    "Microsoft.NETCore": "5.0.0",
-    "xunit.extensibility.execution": "2.1.0"
+    "Microsoft.NETCore": "5.0.1"
   },
   "frameworks": {
-    "dotnet": {
+    "netstandard1.3": {
       "imports": "portable-net45+win8"
     }
   }
